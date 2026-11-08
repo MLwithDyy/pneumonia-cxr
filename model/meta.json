@@ -1,0 +1,28 @@
+{
+  "classes": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "threshold": 0.5161686539649963,
+  "test": {
+    "auroc": 0.9882,
+    "sensitivity": 0.9775,
+    "specificity": 0.9228,
+    "auroc_ci95": [
+      0.979,
+      0.995
+    ],
+    "sens_ci95": [
+      0.966,
+      0.988
+    ],
+    "spec_ci95": [
+      0.889,
+      0.953
+    ]
+  },
+  "baseline_val_auroc": {
+    "logreg_32x32": 0.9663,
+    "global_stats_only": 0.8462
+  }
+}

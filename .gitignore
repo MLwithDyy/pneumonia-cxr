@@ -1,0 +1,17 @@
+# rahasia, jangan pernah ikut commit
+kaggle.json
+.env
+
+# data dan arsip besar
+data/
+*.zip
+
+# sampah Python dan Jupyter
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# sampah sistem
+.DS_Store
+Thumbs.db
