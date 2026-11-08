@@ -41,7 +41,7 @@ Confusion matrix (rows = true, columns = predicted): NORMAL [251, 21], PNEUMONIA
 docker build -t pneumonia-cxr .
 docker run --rm -p 7860:7860 pneumonia-cxr    # open http://localhost:7860/docs
 ```
-`scripts/export_onnx.py` shows how the browser model was exported.
+The final section of `notebooks/pneumonia_cxr.ipynb` exports the model to ONNX for the browser demo.
 
 ## Repo layout
-`app/` API, `model/` weights and metadata, `notebooks/` training and evaluation, `scripts/` ONNX export, `assets/` figures.
+`app/` API, `model/` weights and metadata, `notebooks/` training, evaluation and ONNX export, `assets/` figures.
